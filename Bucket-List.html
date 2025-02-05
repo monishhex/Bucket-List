@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Bucket List</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    color: dimgray; 
+}
+
+.header {
+    background-color: royalblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px; 
+    margin: 50px auto; 
+    padding: 20px;
+    background: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: royalblue; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px; 
+    background: lightblue;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px; 
+    display: flex;
+    align-items: center;
+    transition: background 0.3s, transform 0.2s;
+}
+
+
+li:hover {
+    background: deepskyblue;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.icon {
+    margin-right: 10px; 
+    color: royalblue; 
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: royalblue;
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+    li {
+        font-size: 16px;
+    }
+    .footer {
+        font-size: 12px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        Welcome to My Bucket List!
+    </div>
+
+    <div class="container">
+        <h1>My Bucket List</h1>
+        <ul>
+            <li>I need to learn data structure concepts</li>
+            <li>Visit my friend's house this month</li>
+            <li>I want to buy a new laptop</li>
+            <li>Complete my main project</li>
+            <li>Learn something new</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 My Bucket List. All Rights Reserved.
+    </div>
+</body>
+</html>
